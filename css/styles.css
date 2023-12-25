@@ -1,0 +1,906 @@
+.profile {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+body {
+    color: #40514E;
+    /* "width" was not here before but i applied width to be (fit-content) here in other to make the 
+    webepage fit/align to the smallest view-port(screen size), but im sure there's a better way to fix it, 
+    maybe by using "rol & column". CHECK OUT "tin Dog" source code, i have made some documentations 
+    there also regarding ideas on fixing this view-port issue. Also, the "project" page of this website seems 
+    to work pretty fine */
+    width: fit-content;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #80808012;
+}
+
+#title {
+    /* background-color: #e0faf6; */
+    /* background-color: #66BFBF; */
+    background-color: #E0EBE8; 
+
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: #45b29a;
+}
+
+.navbar-link:hover {
+  color: darkgray;
+}
+
+/* project page - title-text */
+
+/* Added an amimnation background on project title page */
+.gradient-background {
+  background: linear-gradient(300deg, #83dcf9, #ff8a9c, #f8a89d);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.title-text {
+    text-align: center;
+    padding: 3% 7%;
+}
+
+.project {
+    text-align: center;
+    padding: 10% 10%;
+}
+
+.project-img {
+    margin-bottom: 4%;
+}
+
+.third-project {
+    padding: 6% 20% 4%;
+    background-color: #87CBB9; 
+    color: #ffff;
+}
+
+.second-project {
+    padding: 6% 20% 4%;
+    background-color:#0A4D68;
+    color: #ffff;
+    text-align: center;
+}
+.fourth-project {
+  padding: 6% 20% 4%;
+  background-color:#778899;
+  color: #ffff;
+  text-align: center;
+}
+
+.fifth-project {
+  padding : 6% 20% 4%;
+  background-color: #f76160;
+  color: #fff;
+  text-align: center;
+}
+
+.first-project {
+  padding: 6% 20% 4%;
+  background-color: gray;
+  text-align: center;
+  color: #fff;
+}
+.sixth-project {
+  padding: 6% 20% 4%;
+  background-color: #848482;
+  text-align: center;
+  color: #fff;
+}
+.seventh-project {
+  padding : 6% 20% 4%;
+  background-color: #0A4D68;
+  color: #fff;
+  text-align: center;
+}
+
+.pro1-style .pro1-img .pro2-style .pro2-img {
+    max-width: 100%;
+    height: auto;
+    /* margin-bottom: 10%; */
+    text-align: center;
+}
+
+.pro3-img {
+  max-width: 100%;
+  height: auto;
+}
+.pro4-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pro1-content {
+    margin: 0 auto;
+    color: #ffff;
+    text-align: center;
+}
+
+.content-paragraph .content-paragraph-bmi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 250;
+    font-size: 1.2em;
+    margin-bottom: 7%;
+}
+
+.content-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  font-size: 1.8em;
+}
+.content-heading-bmi {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.btn-style {
+    color: #ffff;
+    background-color: #0A4D68;
+    padding: 15px 40px;
+    border-radius: 2.5px;
+}
+
+.btn-style:hover {
+    background: #031117 ;
+}
+
+.btn-pro2-style {
+    color: #ffff;
+    background-color: #00b7ff;
+    padding: 15px 40px;
+    border-radius: 2.5px;
+}
+
+.btn-pro2-style:hover {
+  background: #031117;
+}
+
+.btn-pro3-style {
+  color: #fff;
+  background-color: #0A4D68;
+  padding: 15px 40px;
+  border-radius: 2.5px;
+}
+
+.btn-pro3-style:hover {
+  background-color: #031117;
+}
+
+.content-heading {
+    color: #ffff;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.content-heading-bmi{
+  color: #ffff;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+
+
+
+/* I want to change the greenish color on my site to more deep green which is this #45b29a*/
+
+/* project page style ending section */
+
+
+h1 {
+    color: #45b29a;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    line-height: 2;
+}
+
+h2 {
+    color: #1e836c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+    
+}
+
+h3 {
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #cff5f5e1 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+/* This the h1, h2 and background image for screen styling */
+.my-title { 
+    margin-left: 20px;
+}
+
+    
+  .my-title1 {
+    margin-left: 20px;
+}
+
+.top-container {
+    /* text-align: center;
+    background-color: #e0faf6;
+    position: relative;
+      */
+    background-image: url("home-img.png");
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+/* This the h1, h2 and background image for screen styling. IT ENDS HERE */
+
+
+.middle-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.Thankyou-msg {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 250;
+  font-size: 1em;
+  color: #fff;
+}
+/* .Thankyou-body {
+  border: 1px solid #0a4d68be;
+  background-color: #0a4d68be;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 15px;
+} */
+
+.skill-row {
+    width: 80%;
+    margin: 45px auto 75px auto;
+    text-align: left;
+}
+
+/* this width was previously 30px */
+.intro {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 90%;
+    margin: 40px auto 40px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.55rem;
+    padding-top: 30px;
+  
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.mobile-app {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #126f72;
+    font-size: 20px;
+    padding: 8px 18px 8px 18px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  /* @media (max-width: 625px) */
+  @media (min-width: 1001px) {
+    body, h3, .btn, .navbar, .navbar-toggler, .nav-link {
+        font-size: medium;
+    }
+
+    img {
+
+        height: auto;
+      
+        max-width: 60%;
+      
+      }
+
+      h1 {
+        font-size: 5.0rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      .top-cloud, .bottom-cloud {
+        width: 60px;
+        height: auto;
+      }
+
+      .pro-img {
+        width: 90px;
+        height: auto;
+      }
+
+
+
+      /* Project page style */
+
+      .pro1-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+    }
+
+      .pro2-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+/* can use 0.8rem for the font size also */
+@media (min-width: 481px) and (max-width: 1000px) {
+    body, h1, h2, h3, .btn, .navbar, .navbar-toggler, .nav-link {
+        font-size: small;
+    }
+
+    img {
+
+        height: auto;
+      
+        max-width: 50%;
+      
+      }
+
+      h1 {
+        font-size: 4.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .navbar-toggler {
+        background-color: #b1cdc5;
+      }
+
+      .top-cloud, .bottom-cloud {
+        width: 50px;
+        height: auto;
+      }
+
+      .pro-img {
+        width: 80px;
+        height: auto;
+      }
+
+
+      /* Project page style */
+
+      .pro1-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+    }
+
+      .pro2-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+
+    }
+
+        
+    /* This the h1, h2 and background image for screen between 481px & 1000px */
+      .my-title {
+        font-size: 2.625rem; 
+        margin-left: 20px;
+    }
+
+        
+      .my-title1 {
+        font-size: 1.0rem; 
+        margin-left: 20px;
+    }
+
+
+/* This the h1, h2 and background image for screen between 481px & 1000px ENDS HERE */
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body, h2, h3, .btn, .navbar, .navbar-toggler, .nav-link {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    img {
+
+        height: auto;
+      
+        max-width: 40%;
+      
+      }
+
+      .nav-background {
+        background-color: #0A4D68;
+      }
+
+/* This the h1, h2 and background image for the smallest screen*/
+      .my-title {
+        font-size: 1.5rem; 
+        margin-left: 20px;
+    }
+
+        
+      .my-title1 {
+        font-size: 0.5rem; 
+        margin-left: 20px;
+    }
+
+      .top-container {
+        /* text-align: center;
+        background-color: #e0faf6;
+        position: relative;
+          */
+        width: 100%;
+        background-size: 100% 100%;
+        padding-top: 100px;
+        padding-bottom: 15px;
+       
+    }
+
+    .middle-container {
+        width: 98%;
+        text-align: center;
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    /* This the h1, h2 and background image for the smallest screen ENDS HERE*/
+
+      .top-cloud, .bottom-cloud {
+        width: 40px;
+        height: auto;
+      }
+
+      .pro-img {
+        width: 70px;
+        height: auto;
+      }
+      /* just checkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+      .btn {
+        display: block;
+        color: #EAEAEA;
+        background: #0A4D68;
+      }
+
+
+      /* Project page style  */
+
+      .btn-style {
+        font-size: 0.6rem;
+        color: #ffff;
+        background-color: #0A4D68;
+        padding: 10px 20px;
+        border-radius: 2.5px;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+      .btn-pro2-style {
+        font-size: 0.6rem;
+        color: #ffff;
+        background-color: #00b7ff;
+        padding: 10px 20px;
+        border-radius: 2.5px;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .btn:hover {
+        background: #1e836c;
+        color: #041015;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+        font-size: bolder;
+      }
+    
+    .pro1-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+    }
+
+    .pro2-img {
+        max-width: 100%;
+        height: auto;
+        /* margin-bottom: 10%; */
+        text-align: center;
+    }
+
+    /* styling the footer section for smaller width display */
+
+    .bottom-container {
+        text-align: center;
+        background-color: #0d4054;
+        color: #EAEAEA;
+        padding: 50px 0 20px;
+    
+    }
+    /* .Thankyou-msg {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 250;
+      font-size: 1em;
+      color: white;
+    }
+    */
+    .third-project {
+      padding: 6% 8% 4%;
+      background-color: #87CBB9; 
+      color: #ffff;
+      font-size: 10px;
+  }
+  .second-project {
+    padding: 6% 8% 4%;
+    background-color:#0A4D68;
+    color: #ffff;
+    text-align: center;
+    font-size: 10px;
+}
+.fourth-project {
+  padding: 6% 8% 4%;
+  background-color:#778899;
+  color: #ffff;
+  text-align: center;
+  font-size: 10px;
+}
+.fifth-project {
+  padding : 6% 8% 4%;
+  background-color: #f76160;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+.first-project {
+  padding : 6% 8% 4%;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+.sixth-project {
+  padding : 6% 8% 4%;
+  background-color: #848482;
+  text-align: center;
+  color: #fff;
+}
+.seventh-project {
+  padding : 6% 8% 4%;
+  background-color: #0A4D68;
+  color: #fff;
+  text-align: center;
+}
+}
+
+@media (min-width: 249px) and (max-width: 319px) {
+  body, h2, h3, .btn, .navbar, .navbar-toggler, .nav-link {
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+img {
+
+    height: auto;
+  
+    max-width: 40%;
+  
+  }
+
+  .nav-background {
+    background-color: #0A4D68;
+  }
+
+/* This the h1, h2 and background image for the smallest screen*/
+  .my-title {
+    font-size: 1.5rem; 
+    margin-left: 20px;
+}
+
+    
+  .my-title1 {
+    font-size: 0.5rem; 
+    margin-left: 20px;
+}
+
+  .top-container {
+    /* text-align: center;
+    background-color: #e0faf6;
+    position: relative;
+      */
+    width: 100%;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 15px;
+   
+}
+
+.middle-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+/* This the h1, h2 and background image for the smallest screen ENDS HERE*/
+
+  .top-cloud, .bottom-cloud {
+    width: 40px;
+    height: auto;
+  }
+
+  .pro-img {
+    width: 70px;
+    height: auto;
+  }
+  /* just checkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+  .btn {
+    display: block;
+    color: #EAEAEA;
+    background: #0A4D68;
+  }
+
+
+  /* Project page style  */
+
+  .btn-style {
+    font-size: 0.6rem;
+    color: #ffff;
+    background-color: #0A4D68;
+    padding: 10px 20px;
+    border-radius: 2.5px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+  .btn-pro2-style {
+    font-size: 0.6rem;
+    color: #ffff;
+    background-color: #00b7ff;
+    padding: 10px 20px;
+    border-radius: 2.5px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.btn-pro3-style {
+    font-size: 0.6rem;
+    color: #ffff;
+    background-color: #00b7ff;
+    padding: 10px 20px;
+    border-radius: 2.5px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #1e836c;
+    color: #041015;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    font-size: bolder;
+  }
+
+.pro1-img {
+    max-width: 100%;
+    height: auto;
+    /* margin-bottom: 10%; */
+    text-align: center;
+}
+
+.pro2-img {
+    max-width: 100%;
+    height: auto;
+    /* margin-bottom: 10%; */
+    text-align: center;
+}
+
+/* styling the footer section for smaller width display */
+
+.bottom-container {
+    text-align: center;
+    background-color: #0d4054;
+    color: #EAEAEA;
+    padding: 50px 70px 20px;
+}
+/* .Thankyou-msg {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 250;
+  font-size: 1em;
+  color: white;
+} */
+/* .Thankyou-body{
+  width: 90%;
+  padding-right: 50px;
+  padding-left: 50px;
+} */
+.third-project {
+  padding: 8% 7% 4%;
+  background-color: #87CBB9; 
+  color: #ffff;
+  font-size: 10px;
+}
+.second-project {
+padding: 8% 7% 4%;
+background-color:#0A4D68;
+color: #ffff;
+text-align: center;
+font-size: 10px;
+}
+.fourth-project {
+  padding: 8% 7% 4%;
+  background-color:#778899;
+  color: #ffff;
+  text-align: center;
+  font-size: 10px;
+  }
+.fifth-project {
+padding : 8% 7% 4%;
+background-color: #f76160;
+color: #fff;
+text-align: center;
+font-size: 10px;
+}
+.first-project {
+  padding : 6% 7% 4%;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+.sixth-project {
+  padding: 6% 7% 4%;
+  background-color: #848482;
+  text-align: center;
+  color: #fff;
+}
+.seventh-project {
+  padding : 6% 7% 4%;
+  background-color: #0A4D68;
+  color: #fff;
+  text-align: center;
+}
+
+}
